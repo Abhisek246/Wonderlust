@@ -1,15 +1,18 @@
-# Wanderlust: Ultimate Travel Destination Finder
+**Wanderlust: Ultimate Travel Destination Finder**
 
-▪ Developed a travel listing platform by utilizing the MVC(Model-View-Controller) framework.
+Developed a comprehensive travel listing platform using the MVC (Model-View-Controller) framework, with a focus on creating a robust and scalable application. Key features and technologies include:
 
-▪ Implemented error handling via middleware and client and server-side validation.
+- **MVC Architecture**: Utilized the MVC framework to structure the application, ensuring a clean separation of concerns and maintainable codebase.
+- **Error Handling**: Implemented error handling through middleware, alongside client-side and server-side validation, to enhance the robustness and reliability of the application.
+- **User Authentication and Authorization**: Integrated Passport middleware for secure user authentication and authorization, allowing only listing owners and reviewers to modify or delete their posts, thereby enforcing role-based access control.
+- **Geo-Coding Integration**: Incorporated Mapbox for geo-coding, enabling users to search and display travel destinations on interactive maps.
+- **Image Management**: Leveraged Cloudinary for efficient image upload, storage, and management, optimizing the handling of travel images.
+- **Deployment and Hosting**: Deployed the application on Render, ensuring reliable and scalable hosting with adherence to industry best practices for coding and architecture.
 
-▪ Integrated user authentication and authorization using Passport middleware. Only listing owners and
-reviewers have permission to modify or delete their posts.
+**Technologies Used**: MongoDB, Express.js, Node.js, Passport, Cloudinary, Mapbox.
 
-▪ Implemented geo-coding using Mapbox and integrated Cloudinary for image management.
+This project highlights proficiency in building scalable web applications, implementing secure authentication mechanisms, and integrating various services to enhance user experience.
 
-▪ Deployed the application on Render for reliable and scalable hosting. Utilised industry best practices for
-coding and architecture.
 
-▪ Technologies - MongoDB, Express.js, Node.js, Passport, Cloudinary, Mapbox
+Deployed Link - https://wonderlust-cxsn.onrender.com/listings
+
